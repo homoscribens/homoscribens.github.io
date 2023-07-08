@@ -8,10 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Daichi Haraguchi (原口大地), a master's student at [Japan Advanced Institute of Science and Technology](https://www.jaist.ac.jp/index.html).
-I belong to [Shirai Lab](http://www.jaist.ac.jp/nlp/lab/index.php?Top) (Kiyoaki Shirai) and study Natural Language Processing.
+I am a master's student, studying Natural Language Processing at [Japan Advanced Institute of Science and Technology](https://www.jaist.ac.jp/index.html) in [Shirai Lab](http://www.jaist.ac.jp/nlp/lab/index.php?Top) advised by Professor Kiyoaki Shirai.
 
-Research Interests
-===
-- Reasoning
-- Trustworthy NLP
+My research interests are in NLP systems that are reasonable, understandable and trustworthy. For that reason, I tackle tasks such as reasoning and explainability.
+I am interested in Meta-cognition (e.g. awareness of ignorance) in Language Models, too.
