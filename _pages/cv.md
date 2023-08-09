@@ -21,6 +21,10 @@ redirect_from:
 * Jul- 2023: Writer
   * [AI-SCHOLAR](https://ai-scholar.tech/)
   * Duties included: Summarizing trending NLP papers and publishing articles
+ 
+* Aug- 2023: Research Intern
+  * wevnal
+  * Duties included: Developping commercial LLMs
   
 ## Publications
 * 原口大地, 白井清昭, 井之上直也. 論理的根拠に基づく頑健な機械読解に向けて. NLP若手の会 第17回シンポジウム, August 2022.
