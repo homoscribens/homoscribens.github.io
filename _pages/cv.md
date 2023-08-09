@@ -23,7 +23,7 @@ redirect_from:
   * Duties included: Summarizing trending NLP papers and publishing articles
  
 * Aug- 2023: Research Intern
-  * wevnal
+  * [wevnal Inc.](https://wevnal.co.jp/)
   * Duties included: Developping commercial LLMs
   
 ## Publications
