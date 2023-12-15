@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 ## International conferences
-1. **Daichi Haraguchi**, Kiyoaki Shirai, Naoya Inoue, Natthawut Kertkeidkachorn. Discovering Highly Influential Shortcut Reasoning: An Automated Template-Free Approach. To appear in _Findings of the Association for Computational Linguistics: EMNLP 2023_. December 2023
+1. **Daichi Haraguchi**, Kiyoaki Shirai, Naoya Inoue, and Natthawut Kertkeidkachorn. 2023. Discovering Highly Influential Shortcut Reasoning: An Automated Template-Free Approach. In Findings of the Association for Computational Linguistics: EMNLP 2023, pages 6401–6407, Singapore. Association for Computational Linguistics. \[[pdf](https://aclanthology.org/2023.findings-emnlp.424.pdf)\]
 
 ## Domestic conferences
 1. **原口大地**, 白井清昭, 井之上直也. 一般性を考慮した言語処理モデルのShortcut Reasoningの自動検出. 言語処理学会第29回年次大会論文集, 4 pages, March 2023. \[[pdf](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/Q3-9.pdf)\] \[[poster](http://homoscribens.github.io/files/NLP_poster.pdf)\]
