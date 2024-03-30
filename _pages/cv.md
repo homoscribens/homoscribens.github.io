@@ -11,7 +11,7 @@ redirect_from:
 
 ## Education
 * B.S. in International Studies, Kwansei Gakuin University, 2021
-* M.S. in Information Science, Japan Advanced Institute of Science and Technology, 2024 (expected)
+* M.S. in Information Science, Japan Advanced Institute of Science and Technology, 2024
 
 ## Work experience
 * Sep-Oct 2021: Research Intern
