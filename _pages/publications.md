@@ -10,7 +10,7 @@ author_profile: true
 ## Domestic conferences
 1. **原口大地**, 白井清昭, 井之上直也. 一般性を考慮した言語処理モデルのShortcut Reasoningの自動検出. 言語処理学会第29回年次大会論文集, 4 pages, March 2023. \[[pdf](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/Q3-9.pdf)\] \[[poster](http://homoscribens.github.io/files/NLP_poster.pdf)\]
 2. **原口大地**, 白井清昭, 井之上直也. 論理的根拠に基づく頑健な機械読解に向けて. NLP若手の会 第17回シンポジウム, August 2022. \[[poster](http://homoscribens.github.io/files/YANS_2022.pdf)\]
-3. 井之上直也, **原口大地**, 田中健史朗, 白井清昭, Natthawut Kertkeidkachorn. 自己認知は LM as KB の信頼性を高めるか. To appear in 言語処理学会第30回年次大会論文集, 4 pages, March 2024.
+3. 井之上直也, **原口大地**, 田中健史朗, 白井清昭, Natthawut Kertkeidkachorn. 自己認知は LM as KB の信頼性を高めるか. To appear in 言語処理学会第30回年次大会論文集, 4 pages, March 2024. \[[pdf](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P6-27.pdf)\]
 
 ## Awards
 1. 言語処理学会 第30回年次大会 優秀賞 (2024/3/14)
