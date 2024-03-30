@@ -10,8 +10,8 @@ locale                   : "en-US"
 title                    : "Daichi Haraguchi / 原口大地"
 title_separator          : "-"
 name                     : &name "Daichi Haraguchi"
-description              : &description "A master's student at JAIST"
-url                      : https://homoscribens.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "I research"
+url                      : "https://homoscribens.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "homoscribens/homoscribens.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Daichi Haraguchi"
   avatar           : "profile.jpg"
-  bio              : "A master's student at JAIST, majoring Natural Laguage Processing"
-  location         : "Ishikawa, Japan"
+  bio              : "A reseacher on Natural Laguage Processing at ???"
+  location         : "Tokyo, Japan"
   employer         :
   pubmed           : 
   googlescholar    : 
