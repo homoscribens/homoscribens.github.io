@@ -26,3 +26,6 @@ redirect_from:
   * [wevnal Inc.](https://wevnal.co.jp/)
   * Duties included: Developping commercial LLMs
   
+* Apr 2024 - present: Researcher
+  * [NEC](https://www.nec.com/)
+  * Duties included: Researching on NLP and AI
