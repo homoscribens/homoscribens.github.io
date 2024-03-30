@@ -18,14 +18,11 @@ redirect_from:
   * [GRI Inc](https://gri.jp/).
   * Duties included: Developing an article classification system
  
-* Jul- 2023: Writer
+* Jul 2023 - Mar 2024: Writer
   * [AI-SCHOLAR](https://ai-scholar.tech/)
   * Duties included: Summarizing trending NLP papers and publishing articles
  
-* Aug- 2023: Research Intern
+* Aug 2023 - Mar 2024: Research Intern
   * [wevnal Inc.](https://wevnal.co.jp/)
   * Duties included: Developping commercial LLMs
   
-## Publications
-* 原口大地, 白井清昭, 井之上直也. 一般性を考慮した言語処理モデルのShortcut Reasoningの自動検出. 言語処理学会第29回年次大会論文集, 4 pages, March 2023.
-* Daichi Haraguchi, Kiyoaki Shirai, Naoya Inoue, and Natthawut Kertkeidkachorn. 2023. Discovering Highly Influential Shortcut Reasoning: An Automated Template-Free Approach. In Findings of the Association for Computational Linguistics: EMNLP 2023, pages 6401–6407, Singapore. Association for Computational Linguistics.
