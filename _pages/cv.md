@@ -27,5 +27,5 @@ redirect_from:
   * Duties included: Developping commercial LLMs
   
 * Apr 2024 - present: Researcher
-  * [NEC](https://www.nec.com/)
-  * Duties included: Researching on NLP and AI
+  * [NEC Data Science Research Laboratories](https://www.nec.com/en/global/rd/labs/datascience/index.html)
+  * Duties included: Research on NLP/Generative AI
