@@ -26,6 +26,6 @@ redirect_from:
   * [wevnal Inc.](https://wevnal.co.jp/)
   * Duties included: Developping commercial LLMs
   
-* Apr 2024 - present: Researcher
-  * [NEC Data Science Research Laboratories](https://www.nec.com/en/global/rd/labs/datascience/index.html)
+* Apr 2024 - present: Research scientist
+  * [NEC Data Science Research Laboratories](https://www.nec.com/en/global/rd/index.html)
   * Duties included: Research on NLP/Generative AI
