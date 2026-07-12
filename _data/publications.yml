@@ -1,3 +1,30 @@
+- year: 2026
+  category: international
+  selected: true
+  title: "cotomi Act: Learning to Automate Work by Watching You"
+  authors: "Masafumi Oyamada, Kunihiro Takeoka, Kosuke Akimoto, Ryoma Obara, Masafumi Enomoto, Haochen Zhang, Daichi Haraguchi, and Takuya Tamura"
+  venue: "Proceedings of the ACM Conference on AI and Agentic Systems, pp. 1172–1178, May 2026"
+  links:
+    - { label: "ACM", url: "https://dl.acm.org/doi/abs/10.1145/3786335.3813203" }
+
+- year: 2026
+  category: journal
+  selected: false
+  title: "cotomi Act: コンピュータを自動で操作するエージェント"
+  authors: "小原涼馬, 榎本昌文, 張皓辰, 竹岡邦紘, 秋元康佑, 原口大地, 田村拓也, 小山田昌史"
+  venue: "人工知能, Vol. 41, No. 3, pp. 304–311, May 2026"
+  links:
+    - { label: "J-STAGE", url: "https://www.jstage.jst.go.jp/article/jjsai/41/3/41_304/_article/-char/ja/" }
+
+- year: 2025
+  category: domestic
+  selected: false
+  title: "事前学習コーパスの直接検索による LLM の知識獲得の構造理解"
+  authors: "原口大地, 田村拓也, 矢野太郎, 小山田昌史"
+  venue: "人工知能学会全国大会論文集 第39回, 2Win5-34, 2025"
+  links:
+    - { label: "J-STAGE", url: "https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_2Win534/_article/-char/ja/" }
+
 - year: 2024
   category: domestic
   selected: true
@@ -8,6 +35,7 @@
   links:
     - { label: "PDF", url: "https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P6-25.pdf" }
     - { label: "Poster", url: "/files/247_poster_or_slide.pdf" }
+
 - year: 2023
   category: international
   selected: true
@@ -16,6 +44,7 @@
   venue: "Findings of the Association for Computational Linguistics: EMNLP 2023, pp. 6401–6407"
   links:
     - { label: "PDF", url: "https://aclanthology.org/2023.findings-emnlp.424.pdf" }
+
 - year: 2023
   category: domestic
   selected: false
@@ -25,6 +54,7 @@
   links:
     - { label: "PDF", url: "https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/Q3-9.pdf" }
     - { label: "Poster", url: "/files/NLP_poster.pdf" }
+
 - year: 2022
   category: domestic
   selected: false
