@@ -1,15 +1,7 @@
 ---
+layout: home
 permalink: /
 title: "Profile"
-excerpt: "About me"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+description: "Profile of Daichi Haraguchi, a natural language processing researcher at NEC Corporation."
 ---
-
-I am a researcher of Natural Language Processing at NEC Corporation.
-
-My research interests are in NLP systems that are reasonable, understandable and trustworthy. 
-For that reason, I tackle tasks such as reasoning and explainability.
-I am interested in Meta-cognition of Language Models, too.
+I am a researcher in Natural Language Processing at NEC Corporation. My research interests include reasoning, explainability, trustworthy NLP systems, and the metacognition of language models.

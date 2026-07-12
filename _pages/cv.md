@@ -1,31 +1,14 @@
 ---
-layout: archive
-title: "CV"
+layout: page
+title: "Curriculum Vitae"
 permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
+intro: "Education and professional experience."
 ---
-
-{% include base_path %}
-
-## Education
-* B.S. in International Studies, Kwansei Gakuin University, 2021
-* M.S. in Information Science, Japan Advanced Institute of Science and Technology, 2024
-
-## Work experience
-* Sep-Oct 2021: Research Intern
-  * [GRI Inc](https://gri.jp/).
-  * Duties included: Developing an article classification system
- 
-* Jul 2023 - Mar 2024: Writer
-  * [AI-SCHOLAR](https://ai-scholar.tech/)
-  * Duties included: Summarizing trending NLP papers and publishing articles
- 
-* Aug 2023 - Mar 2024: Research Intern
-  * [wevnal Inc.](https://wevnal.co.jp/)
-  * Duties included: Developping commercial LLMs
-  
-* Apr 2024 - present: Research scientist
-  * [NEC Data Science Research Laboratories](https://www.nec.com/en/global/rd/index.html)
-  * Duties included: Research on NLP/Generative AI
+<section class="content-section" aria-labelledby="experience">
+  <h2 id="experience">Experience</h2>
+  <div class="cv-list">{% for item in site.data.cv.experience %}<article class="cv-row"><p class="cv-period">{{ item.period }}</p><div><h3>{{ item.role }}</h3><p class="cv-organization">{{ item.organization }}</p><p>{{ item.description }}</p></div></article>{% endfor %}</div>
+</section>
+<section class="content-section" aria-labelledby="education">
+  <h2 id="education">Education</h2>
+  <div class="cv-list">{% for item in site.data.cv.education %}<article class="cv-row"><p class="cv-period">{{ item.period }}</p><div><h3>{{ item.degree }}</h3><p>{{ item.institution }}</p></div></article>{% endfor %}</div>
+</section>

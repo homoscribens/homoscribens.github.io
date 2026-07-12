@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<main id="main-content" class="site-main">
+  <section class="profile-intro" aria-labelledby="profile-name">
+    <img class="profile-photo" src="{{ site.author.avatar | relative_url }}" alt="Portrait of {{ site.author.name }}">
+    <div class="profile-details">
+      <h1 id="profile-name">{{ site.author.name }} <span>/ {{ site.author.name_ja }}</span></h1>
+      <p class="profile-affiliation">{{ site.author.role }} at {{ site.author.organization }} · {{ site.author.location }}</p>
+      <div class="profile-copy">{{ content }}</div>
+      <ul class="profile-links" aria-label="External profiles and contact">
+        {% if site.author.googlescholar %}<li><a href="{{ site.author.googlescholar }}">Google Scholar <span aria-hidden="true">↗</span></a></li>{% endif %}
+        {% if site.author.orcid %}<li><a href="{{ site.author.orcid }}">ORCID <span aria-hidden="true">↗</span></a></li>{% endif %}
+        {% if site.author.github %}<li><a href="https://github.com/{{ site.author.github }}">GitHub <span aria-hidden="true">↗</span></a></li>{% endif %}
+        {% if site.author.twitter %}<li><a href="https://x.com/{{ site.author.twitter }}">X <span aria-hidden="true">↗</span></a></li>{% endif %}
+        {% if site.author.email %}<li><a href="mailto:{{ site.author.email }}">Email <span aria-hidden="true">↗</span></a></li>{% endif %}
+      </ul>
+    </div>
+  </section>
+  <section class="home-section" aria-labelledby="selected-publications">
+    <div class="section-header"><h2 id="selected-publications">Selected Publications</h2><a href="{{ '/publications/' | relative_url }}">View all <span aria-hidden="true">→</span></a></div>
+    <div class="publication-list">
+      {% assign selected = site.data.publications | where: "selected", true %}
+      {% for publication in selected %}{% include publication.html publication=publication compact=true %}{% endfor %}
+    </div>
+  </section>
+  <section class="home-section" aria-labelledby="current-position">
+    <div class="section-header"><h2 id="current-position">Current Position</h2><a href="{{ '/cv/' | relative_url }}">Full CV <span aria-hidden="true">→</span></a></div>
+    {% assign current = site.data.cv.experience | first %}
+    <div class="cv-row"><p class="cv-period">{{ current.period }}</p><div><h3>{{ current.role }}</h3><p>{{ current.organization }}</p></div></div>
+  </section>
+</main>

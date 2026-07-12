@@ -1,0 +1,15 @@
+{% assign publication = include.publication %}
+<article class="publication-item{% if include.compact %} publication-item--compact{% endif %}">
+  <p class="publication-year">{{ publication.year }}</p>
+  <div class="publication-body">
+    <h3>{{ publication.title }}</h3>
+    {% unless include.compact %}<p class="publication-authors">{{ publication.authors }}</p>{% endunless %}
+    <p class="publication-venue">{{ publication.venue }}</p>
+    {% if publication.award %}<p class="publication-award">{{ publication.award }}</p>{% endif %}
+  </div>
+  <ul class="publication-links" aria-label="Links for {{ publication.title | escape }}">
+    {% for link in publication.links %}
+      <li><a href="{% if link.url contains '://' %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}">{{ link.label }} <span aria-hidden="true">↗</span></a></li>
+    {% endfor %}
+  </ul>
+</article>

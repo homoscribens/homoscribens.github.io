@@ -1,18 +1,14 @@
 ---
-layout: archive
+layout: page
 title: "Publications"
 permalink: /publications/
-author_profile: true
+intro: "Research papers, conference presentations, and awards."
 ---
-## International conferences
-1. **Daichi Haraguchi**, Kiyoaki Shirai, Naoya Inoue, and Natthawut Kertkeidkachorn. 2023. Discovering Highly Influential Shortcut Reasoning: An Automated Template-Free Approach. In Findings of the Association for Computational Linguistics: EMNLP 2023, pages 6401–6407, Singapore. Association for Computational Linguistics. \[[pdf](https://aclanthology.org/2023.findings-emnlp.424.pdf)\]
-
-## Domestic conferences
-1. **原口大地**, 白井清昭, 井之上直也. 一般性を考慮した言語処理モデルのShortcut Reasoningの自動検出. 言語処理学会第29回年次大会論文集, 4 pages, March 2023. \[[pdf](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/Q3-9.pdf)\] \[[poster](http://homoscribens.github.io/files/NLP_poster.pdf)\]
-2. **原口大地**, 白井清昭, 井之上直也. 論理的根拠に基づく頑健な機械読解に向けて. NLP若手の会 第17回シンポジウム, August 2022. \[[poster](http://homoscribens.github.io/files/YANS_2022.pdf)\]
-3. 井之上直也, **原口大地**, 田中健史朗, 白井清昭, Natthawut Kertkeidkachorn. 自己認知は LM as KB の信頼性を高めるか. 言語処理学会第30回年次大会論文集, 4 pages, March 2024. \[[pdf](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P6-25.pdf)\] \[[poster](http://homoscribens.github.io/files/247_poster_or_slide.pdf)\]
-
-## Awards
-1. 言語処理学会 第30回年次大会 優秀賞 (2024/3/14)
-   - 井之上直也, **原口大地**, 田中健史朗, 白井清昭, Natthawut Kertkeidkachorn.
-   -  自己認知は LM as KB の信頼性を高めるか
+<section class="content-section" aria-labelledby="international-publications">
+  <h2 id="international-publications">International Conferences</h2>
+  <div class="publication-list">{% assign publications = site.data.publications | where: "category", "international" %}{% for publication in publications %}{% include publication.html publication=publication %}{% endfor %}</div>
+</section>
+<section class="content-section" aria-labelledby="domestic-publications">
+  <h2 id="domestic-publications">Domestic Conferences</h2>
+  <div class="publication-list">{% assign publications = site.data.publications | where: "category", "domestic" %}{% for publication in publications %}{% include publication.html publication=publication %}{% endfor %}</div>
+</section>
